@@ -1,0 +1,18 @@
+app:
+  name: my-quarkus-app-r
+  namespace: demo
+  virtualMachineName: quarkus-dev
+  virtualMachineNamespace: demo
+  cluster:    #
+
+git:
+  branch: main
+  repo: github.com
+  org: svkcemk
+  name: my-quarkus-app-r
+
+image:
+  url: quay.io/qshift/my-quarkus-app
+  registry:  # NOT USED
+  organization:  # NOT USED
+  name:  # NOT USED
